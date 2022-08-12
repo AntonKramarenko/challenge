@@ -1,0 +1,20 @@
+.App{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.App__lists{
+    display: flex;
+}
+
+.nestedList__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+    width: 100px;
+}
